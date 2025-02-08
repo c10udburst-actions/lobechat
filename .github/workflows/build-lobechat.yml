@@ -43,5 +43,4 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           # List all variables you need to overwrite
           build-args: |
-            NEXT_PUBLIC_BASE_PATH=/chat/
-            NEXT_PUBLIC_SERVICE_MODE=
+            NEXT_PUBLIC_BASE_PATH=/chat
